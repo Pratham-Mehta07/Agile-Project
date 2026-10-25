@@ -34,4 +34,4 @@ Import the repository into Vercel. The included configuration builds with `npm r
 
 ## Scope
 
-This baseline includes the Student 1 and Student 3 work: responsive UI, dashboard, CRUD, validation, LocalStorage persistence, tests, CI, Docker, and deployment configuration. Advanced search, filters, sorting, Kanban, enhanced interaction states, and Selenium tests remain reserved for Student 2.
+This project includes a responsive dashboard, application CRUD, validation, LocalStorage persistence, and CI, Docker, and deployment configuration. The Applications page supports case-insensitive company and role search, status filters, date/company sorting, list and responsive Kanban board views, and clear empty states. Application edits and deletions update the dashboard and list immediately. Selenium tests remain outside the current test suite.
