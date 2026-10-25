@@ -11,10 +11,10 @@ The plan separates the intended increments. “Completed in baseline” describe
 ## Sprint 2 — Tracking improvements
 
 - Dashboard and status functionality — baseline dashboard completed.
-- Search, filters, sorting, Kanban, and enhanced interaction states — planned for Student 2; intentionally excluded here.
+- Search, filters, sorting, Kanban, and enhanced interaction states — completed by Student 2.
 
 ## Sprint 3 — Quality and delivery
 
 - Unit/component tests, TDD documentation, GitHub Actions, Docker, and Vercel configuration — completed in baseline.
-- Selenium coverage — planned for Student 2.
+- Selenium UI coverage — completed for the seven required user flows.
 - Actual Vercel deployment — pending a repository/account deployment by the students.

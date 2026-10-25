@@ -19,6 +19,8 @@ npm run test:watch
 npm run build
 ```
 
+Selenium UI testing requires Google Chrome and a running local server. Start the server with `npm run dev -- --host 127.0.0.1`, then run `npm run test:e2e` in a second terminal. See `e2e/README.md` for complete instructions.
+
 ## Docker
 
 ```bash
@@ -34,4 +36,4 @@ Import the repository into Vercel. The included configuration builds with `npm r
 
 ## Scope
 
-This project includes a responsive dashboard, application CRUD, validation, LocalStorage persistence, and CI, Docker, and deployment configuration. The Applications page supports case-insensitive company and role search, status filters, date/company sorting, list and responsive Kanban board views, and clear empty states. Application edits and deletions update the dashboard and list immediately. Selenium tests remain outside the current test suite.
+This project includes a responsive dashboard, application CRUD, validation, LocalStorage persistence, and CI, Docker, and deployment configuration. The Applications page supports case-insensitive company and role search, status filters, date/company sorting, list and responsive Kanban board views, and clear empty states. Application edits and deletions update the dashboard and list immediately. Selenium UI tests run separately from the Vitest unit/component suite with `npm run test:e2e`.

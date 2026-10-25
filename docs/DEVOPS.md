@@ -21,6 +21,6 @@ docker run --rm -p 8080:80 jobtrack
 
 - Student 1: React structure, dashboard, navigation, form, initial table, and styling.
 - Student 3: storage/validation utilities, unit tests, TDD notes, CI workflow, Docker/Nginx, and Vercel configuration.
-- Student 2 (planned): search, filters, sorting, Kanban, enhanced interaction states, and Selenium.
+- Student 2: search, filters, sorting, Kanban, enhanced interaction states, and Selenium UI testing.
 
 Students should review and commit their own work using their own Git identities. No automated push or fabricated history is part of this setup.
