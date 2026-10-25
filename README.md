@@ -36,4 +36,8 @@ Import the repository into Vercel. The included configuration builds with `npm r
 
 ## Scope
 
+<<<<<<< HEAD
 This project includes a responsive dashboard, application CRUD, validation, LocalStorage persistence, and CI, Docker, and deployment configuration. The Applications page supports case-insensitive company and role search, status filters, date/company sorting, list and responsive Kanban board views, and clear empty states. Application edits and deletions update the dashboard and list immediately. Selenium UI tests run separately from the Vitest unit/component suite with `npm run test:e2e`.
+=======
+This project includes a responsive dashboard, application CRUD, validation, LocalStorage persistence, and CI, Docker, and deployment configuration. The Applications page supports case-insensitive company and role search, status filters, date/company sorting, list and responsive Kanban board views, and clear empty states. Application edits and deletions update the dashboard and list immediately. Selenium tests remain outside the current test suite.
+>>>>>>> a9b1ba6ebc3cbe2f77aa61de4fd0556b1121e7c2
